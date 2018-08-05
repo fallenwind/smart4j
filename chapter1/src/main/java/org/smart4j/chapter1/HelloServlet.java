@@ -17,6 +17,7 @@ public class HelloServlet extends HttpServlet {
 
     }
 
+    //check github connection
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
