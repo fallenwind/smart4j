@@ -59,12 +59,13 @@ public class Customer {
         this.remark = remark;
     }
 
-    public Customer(long id, String name, String contact, String telephone, String email, String remark) {
-        this.id = id;
-        this.name = name;
-        this.contact = contact;
-        this.telephone = telephone;
-        this.email = email;
-        this.remark = remark;
-    }
+//    public Customer(long id, String name, String contact, String telephone, String email, String remark) {
+//        this.id = id;
+//        this.name = name;
+//        this.contact = contact;
+//        this.telephone = telephone;
+//        this.email = email;
+//        this.remark = remark;
+//    }
+
 }
