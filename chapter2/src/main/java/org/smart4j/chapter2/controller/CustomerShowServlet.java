@@ -1,4 +1,4 @@
-package org.smart4j.chanpter2.controller;
+package org.smart4j.chapter2.controller;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

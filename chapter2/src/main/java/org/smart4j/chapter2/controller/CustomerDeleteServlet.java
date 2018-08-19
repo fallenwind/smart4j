@@ -1,4 +1,4 @@
-package org.smart4j.chanpter2.controller;
+package org.smart4j.chapter2.controller;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -8,29 +8,34 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * 客户列表
+ * 删除客户
  */
-@WebServlet("/customer")
-public class CustomerServlet extends HttpServlet {
+@WebServlet("/customer_delete")
+public class CustomerDeleteServlet extends HttpServlet {
     /**
-     * 查询客户
+     * 处理 删除客户 请求
      * @param request
      * @param response
      * @throws ServletException
      * @throws IOException
      */
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        // TODO: 2018/8/8  
     }
 
     /**
-     * 进入 客户列表 界面
+     * 进入 删除客户 界面
      * @param request
      * @param response
      * @throws ServletException
      * @throws IOException
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // TODO: 2018/8/8
+    }
 
+    @Override
+    protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        super.doDelete(req, resp);
     }
 }

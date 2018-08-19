@@ -1,21 +1,14 @@
-package org.smart4j.chanpter2.service;
+package org.smart4j.chapter2.service;
 
 
-import org.apache.log4j.PropertyConfigurator;
-import org.smart4j.chanpter2.helper.DatabaseHelper;
-import org.smart4j.chanpter2.model.Customer;
-import org.smart4j.chanpter2.util.PropsUtil;
+import org.smart4j.chapter2.helper.DatabaseHelper;
+import org.smart4j.chapter2.model.Customer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-import java.sql.*;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.Properties;
-
-
 
 
 /**
